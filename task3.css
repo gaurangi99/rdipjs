@@ -1,0 +1,12 @@
+body{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.input{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    border:1px ridge rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}

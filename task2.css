@@ -11,3 +11,10 @@ body{
     border:1px ridge rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
 }
+
+.input{
+    font-size: 2rem;
+    color: rgba(250, 2, 2, 0.61);
+    border:1px ridge rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
