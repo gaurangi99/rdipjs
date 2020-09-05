@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+
+    <link href="task2.css" rel="stylesheet">
+</head>
+<body>
+
+    <form name="task2_Form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+    
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phone" name="phone" required onsubmit="phoneValForm()"><p id="pno"></p>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Submit" class="submit">
+
+    </form>
+    
+    <script src="task-functions.js"></script>
+    
+</body>
+</html>
